@@ -1,0 +1,54 @@
+.author {
+    height: 105px;
+    overflow: hidden;
+    border-bottom: 1px solid $light-gray;
+    
+    @include mobile-view {
+        border: none;
+        padding-top: 30px;
+        height: 125px;
+    }
+}
+
+.author__thumbnail {
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 80px;
+}
+
+.author_info {
+    display: flex;
+    
+    @include mobile-view {
+        justify-content: center;
+    }
+}
+
+.author__name {
+    font-size: $x-large;
+}
+
+.author__description {
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author__actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    @include mobile-view {
+        display: none;
+    }
+}
+
+.author__message {
+    background-color: $cyan;
+}
+.author__follow {
+    background-color: $red;
+}

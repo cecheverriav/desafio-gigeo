@@ -1,0 +1,12 @@
+.header {
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header__banner {
+    width: 100%;
+    vertical-align: middle;
+}

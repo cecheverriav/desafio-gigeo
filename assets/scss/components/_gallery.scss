@@ -1,0 +1,17 @@
+.gallery {
+    padding: 50px 0;
+}
+
+.gallery__title {
+    padding-bottom: 30px;
+    font-weight: 500;
+    font-size: $x-large;
+
+    @include mobile-view {
+        text-align: center;
+    }
+}
+
+.gallery__image {
+    padding-bottom: 20px;
+}
